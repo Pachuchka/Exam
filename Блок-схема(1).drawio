@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" modified="2023-05-03T16:32:31.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="XKcXB3AL_-oEP9VQhwBS" version="21.2.4" type="device">
+  <diagram name="Страница 1" id="bsK5mUQvSCg6K_ZATM2f">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-2" value="&lt;div&gt;&lt;pre class=&quot;aLF-aPX-K0-aPE&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;string [] ArrayDeclaration()&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	string [] newArray = ....&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;return newArray;&lt;/pre&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-3" value="&lt;p&gt;Инициализируем пользовательский массив исходных данных&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0adE6yI6WGxj1PTA1V1-4" target="w0adE6yI6WGxj1PTA1V1-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620.0500000000002" y="498.79999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0adE6yI6WGxj1PTA1V1-4" target="w0adE6yI6WGxj1PTA1V1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-4" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="377.5" width="500" height="262.5" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-6" value="Формируем новый массив, в который будем записывать результат" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-7" value="Старт" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w0adE6yI6WGxj1PTA1V1-7" target="w0adE6yI6WGxj1PTA1V1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-9" value="&lt;div&gt;&lt;pre class=&quot;aLF-aPX-K0-aPE&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;string [] NewRandomArray(string [] userArray)&lt;br&gt;	int n = userArray.Length;&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;br&gt;        string [] result = new string[n]&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;result[j] = GenerateRandomSrting(userArray[j], set[j]);&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;return result&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="90" y="471.25" width="460" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.383;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.567;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="w0adE6yI6WGxj1PTA1V1-1" target="w0adE6yI6WGxj1PTA1V1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0adE6yI6WGxj1PTA1V1-13" target="w0adE6yI6WGxj1PTA1V1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-13" value="&lt;div&gt;for i =0;i&amp;lt;n;&lt;/div&gt;&lt;div&gt;i++&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="430" width="110" height="101.25" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-14" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="377.5" width="483" height="282.5" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-16" value="Для каждого элемента нового списка формируем случайный набор символов из символов исходного массива, затем умножаем этот набор символов на число вхождений элемента в результррующий массив (0 или 1) и сокращаем длинну строки символов до &quot;не более 3&quot;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="820" y="400" width="463" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-17" value="&lt;div&gt;&lt;pre class=&quot;aLF-aPX-K0-aPE&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;string GenerateRandomSrting(string a, int b)&lt;br&gt;	return resultString&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="820" y="471.25" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="w0adE6yI6WGxj1PTA1V1-17" target="w0adE6yI6WGxj1PTA1V1-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="660" as="sourcePoint" />
+            <mxPoint x="810" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0adE6yI6WGxj1PTA1V1-23" target="w0adE6yI6WGxj1PTA1V1-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-23" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="135" y="720" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-25" value="Выводим подсказку чтобы было понятно из чего получен результат" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="745" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0adE6yI6WGxj1PTA1V1-26" target="w0adE6yI6WGxj1PTA1V1-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-26" value="&lt;b&gt;Выводим результат&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0adE6yI6WGxj1PTA1V1-28" value="КОНЕЦ" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1035" width="180" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
